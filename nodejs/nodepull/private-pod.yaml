@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: private-pod
+spec:
+  containers:
+  - name: private-reg
+    image: sangeethagopinath/private-repo:nodeapp-v1
+  imagePullSecrets:
+  - name: regcred

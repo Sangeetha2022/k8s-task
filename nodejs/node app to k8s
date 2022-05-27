@@ -1,0 +1,19 @@
+Deploying a complete node.js application to kubernetes
+===============================================
+
+
+Creating NodeJS App
+Dockerize the NodeJs App
+Build your Docker Image
+Push your Image to Docker Hub
+Create Kubernetes Deployment.yml
+ Create Kubernetes Services.yml
+Deploy your application in Kubernetes
+
+Origin domain
+
+dev-gepettosantest.s3-website.us-east-1.amazonaws.com
+
+Name
+Enter a name for this origin.
+S3-Website-dev-gepettosantest.s3-website.us-east-1.amazonaws.com
